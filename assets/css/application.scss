@@ -1,0 +1,25 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+@import "resets";
+@import "icons";
+@import "fonts";
+@import "grid";
+@import "general";
+@import "main";
+
+.notification {
+    background: #383838 !important;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 0.5em 0;
+    font-size: 14px;
+    color: #ffee77;
+    text-align: center;
+    font-weight: bold;
+    line-height: inherit;
+}
