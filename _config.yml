@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-name: MyMonero
-title: MyMonero
-email: support@mymonero.com
+name: FortressXMR
+title: FortressXMR
+email: support@FortressXMR.com
 description: > # this means to ignore newlines until "baseurl:"
-  MyMonero is the simplest way to use private digital cash, at the sweet spot between security, convenience, and features.
+  FortressXMR is the simplest way to use private digital cash, at the sweet spot between security, convenience, and features.
 baseurl: "" # the subpath of your site, e.g. /blog
 notification: > 
-  The official MyMonero Android app is now live in the Google Play Store. <a href="https://play.google.com/store/apps/details?id=com.mymonero.official_android_application">Check it out here.</a> 
-url: "https://mymonero.com" # the base hostname & protocol for your site, e.g. http://example.com
+  The official FortressXMR Android app is now live in the Google Play Store. <a href="https://play.google.com/store/apps/details?id=com.FortressXMR.official_android_application">Check it out here.</a> 
+url: "https://FortressXMR.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown

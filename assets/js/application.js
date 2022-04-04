@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, MyMonero.com
+// Copyright (c) 2014-2019, FortressXMR.com
 //
 // All rights reserved.
 //
@@ -32,16 +32,16 @@
 
 const desktopVersionString = '1.2.4'
 const iosVersionString = '1.1.21'
-const githubUrl = "https://github.com/mymonero/mymonero-app-js/releases/download";
+const githubUrl = "https://github.com/FortressXMR/FortressXMR-app-js/releases/download";
 
-const downloadLink__mac = `${githubUrl}/v${desktopVersionString}/MyMonero-${desktopVersionString}.dmg`
-const downloadLink__win = `${githubUrl}/v${desktopVersionString}/MyMonero-Setup-${desktopVersionString}.exe`
-const downloadLink__linux = `${githubUrl}/v${desktopVersionString}/MyMonero-${desktopVersionString}.AppImage`
-const downloadLink__android = `https://play.google.com/store/apps/details?id=com.mymonero.official_android_application`
+const downloadLink__mac = `${githubUrl}/v${desktopVersionString}/FortressXMR-${desktopVersionString}.dmg`
+const downloadLink__win = `${githubUrl}/v${desktopVersionString}/FortressXMR-Setup-${desktopVersionString}.exe`
+const downloadLink__linux = `${githubUrl}/v${desktopVersionString}/FortressXMR-${desktopVersionString}.AppImage`
+const downloadLink__android = `https://play.google.com/store/apps/details?id=com.FortressXMR.official_android_application`
 const downloadLink__ios = "https://apps.apple.com/us/app/apple-store/id1372508199"
 
-// https://github.com/mymonero/mymonero-app-js/releases/download/v1.1.13/MyMonero-Setup-1.1.13.exe
-// https://github.com/mymonero/mymonero-app-js/releases/tag/v1.1.16-beta
+// https://github.com/FortressXMR/FortressXMR-app-js/releases/download/v1.1.13/FortressXMR-Setup-1.1.13.exe
+// https://github.com/FortressXMR/FortressXMR-app-js/releases/tag/v1.1.16-beta
 //
 
 function getOS()
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function()
 	//
 
 	//
-	var desktopGitHubUrl = 'https://github.com/mymonero/mymonero-app-js/releases'
+	var desktopGitHubUrl = 'https://github.com/FortressXMR/FortressXMR-app-js/releases'
 	var releasesInfo = 
 	{
 		mac: {
@@ -105,13 +105,13 @@ document.addEventListener("DOMContentLoaded", function()
 		android: {
 			downloadUrl: downloadLink__android,
 			downloadTitleSuffix: ' (Android)',
-			githubUrl: 'https://github.com/mymonero/mymonero-android-js',
+			githubUrl: 'https://github.com/FortressXMR/FortressXMR-android-js',
 			version: desktopVersionString
 		},
 		ios: {
 			downloadUrl: downloadLink__ios,
 			downloadTitleSuffix: ' &rarr; App Store',
-			githubUrl: 'https://github.com/mymonero/mymonero-app-ios',
+			githubUrl: 'https://github.com/FortressXMR/FortressXMR-app-ios',
 			version: iosVersionString
 		}
 	}
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function()
 			function addQuickAccessWebWalletTopButton()
 			{
 				const li = document.createElement("li")
-				li.innerHTML = `<a href="https://wallet.mymonero.com/" class="button extra-button">`
+				li.innerHTML = `<a href="https://wallet.FortressXMR.com/" class="button extra-button">`
 					+ `<span class="text">Quick access wallet online</span>`
 				+ `</a>`
 				mainButtons.appendChild(li);
@@ -207,7 +207,7 @@ document.addEventListener("DOMContentLoaded", function()
 			}
 			//
 			if (!isAndroid) {
-				mainButtons.insertAdjacentHTML("afterend", `<p class="accessory secondary">Or, <a href="https://wallet.mymonero.com" class="strong">Access Web Wallet</a></p>`);
+				mainButtons.insertAdjacentHTML("afterend", `<p class="accessory secondary">Or, <a href="https://wallet.FortressXMR.com" class="strong">Access Web Wallet</a></p>`);
 			}
 			mainButtons.insertAdjacentHTML("afterend", `<p class="accessory">Not on ${osDisplayNameFor(releasesInfo_key, osName)}? <a href="#cross-platform">See other platforms</a></p>`);
 			if (isAndroid) {
@@ -240,9 +240,9 @@ document.addEventListener("DOMContentLoaded", function()
 	//
 	// Call the functions
 	//
-	var mymonero = mm.initialiser;
-	mymonero.uaParser();
-	mymonero.emojione();
+	var FortressXMR = mm.initialiser;
+	FortressXMR.uaParser();
+	FortressXMR.emojione();
 });
 //
 })();

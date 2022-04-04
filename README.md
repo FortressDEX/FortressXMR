@@ -1,13 +1,13 @@
-# MyMonero Website
+# FortressXMR Website
 
 <p align="center">
-  <img alt="MyMonero" src="https://user-images.githubusercontent.com/1645428/146000939-b06f8fd3-9ed2-4a5e-bdd6-3981281dde9c.png">
+  <img alt="FortressXMR" src="https://user-images.githubusercontent.com/1645428/146000939-b06f8fd3-9ed2-4a5e-bdd6-3981281dde9c.png">
 </p>
 <p align="center">
-  MyMonero Website
+  FortressXMR Website
 </p>
 
-This is the MyMonero website source for https://mymonero.com.
+This is the FortressXMR website source for https://FortressXMR.com.
 
 Written with Jekyll, SCSS, HTML, and Javascript
 
@@ -27,8 +27,8 @@ gem install bundler
 
 Clone or download this repo.
 ```bash
-git clone https://github.com/mymonero/mymonero-app-site.git
-cd mymonero-app-site
+git clone https://github.com/FortressXMR/FortressXMR-app-site.git
+cd FortressXMR-app-site
 ```
 
 Run the bundle installer
@@ -64,4 +64,4 @@ Please submit any bugs as Issues unless they have already been reported.
 
 See `LICENSE.txt` for license.
 
-All app source code and assets copyright © 2014-2021 by MyMonero. All rights reserved.
+All app source code and assets copyright © 2014-2021 by FortressXMR. All rights reserved.
