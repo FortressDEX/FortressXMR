@@ -28,6 +28,7 @@ markdown: kramdown
 gems:
   - jekyll-feed
 exclude:
+  - ruby
   - [vendor]
   - tmp/
   - Gemfile
