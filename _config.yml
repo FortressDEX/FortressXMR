@@ -19,8 +19,8 @@ email: support@FortressXMR.com
 description: > # this means to ignore newlines until "baseurl:"
   FortressXMR is the simplest way to use private digital cash, at the sweet spot between security, convenience, and features.
 baseurl: "" # the subpath of your site, e.g. /blog
-notification: > 
-  The official FortressXMR Android app is now live in the Google Play Store. <a href="https://play.google.com/store/apps/details?id=com.FortressXMR.official_android_application">Check it out here.</a> 
+notification: >
+  The official FortressXMR Android app is now live in the Google Play Store. <a href="https://play.google.com/store/apps/details?id=com.FortressXMR.official_android_application">Check it out here.</a>
 url: "https://FortressXMR.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
@@ -28,6 +28,7 @@ markdown: kramdown
 gems:
   - jekyll-feed
 exclude:
+  - tmp/
   - Gemfile
   - Gemfile.lock
   - README.md
